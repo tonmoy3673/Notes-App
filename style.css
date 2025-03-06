@@ -12,7 +12,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
 .banner{
     display: flex;
     align-items: center;
@@ -41,7 +43,7 @@
     font-size: 1.3rem;
     border-radius: 15px;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease;
     border: 0;
     outline: 0;
     width: 230px;
@@ -58,6 +60,10 @@
     position: relative;
     margin: 0 auto;
     align-items:left;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 340px;
 }
 #text-area{
 border-radius: 10px;
@@ -69,6 +75,7 @@ border: 0;
 width: 340px;
 height: 80px;
 padding: 7px;
+
 
 }
 
@@ -84,8 +91,21 @@ padding: 7px;
 .delete-img{
     width: 30px;
     position: absolute;
-    bottom: 30px;
-    right: 5px;
+    bottom: 5px;
+    right: 8px;
     cursor: pointer;
-    padding-right: 3px;
+}
+.submit-btn-container{
+    text-align: end;
+    margin-top: 15px;
+}
+#submit-btn{
+   padding: 10px 15px;
+   font-size: 0.9rem;
+   border: 0;
+   outline: 0;
+   border-radius: 15px;
+  background-color: #019f55;
+   cursor: pointer;
+   color: #ebfffc;
 }
