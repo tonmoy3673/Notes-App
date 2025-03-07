@@ -18,15 +18,22 @@
         <h1 class="title">Notes</h1>
     </header>
     <!-- =========== Button ========== -->
-     <button id="btn" class="btn-create">
+     <button onclick="createNotes()" id="btn" class="btn-create">
         <img class="create-img" src="/images/edit.png" alt="create"> Create Notes
      </button>
+       <!-- ======== Notes List ========= -->
+       <ol id="notes-list">
+
+       </ol>
      <!-- ========== Notes Content ======= -->
       <div id="notes-container">
         <div class="notes" >
             <textarea placeholder="Type Notes Here..." id="text-area"></textarea>
             <img class="delete-img" src="/images/delete.png" alt="delete">
           </div>
+
+        
+        
         <!-- ======= submit button ========= -->
         <div class="submit-btn-container">
             <button id="submit-btn">Submit</button>

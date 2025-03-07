@@ -109,3 +109,6 @@ padding: 7px;
    cursor: pointer;
    color: #ebfffc;
 }
+#notes-container{
+    /* display: none; */
+}
