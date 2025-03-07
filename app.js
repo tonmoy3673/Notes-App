@@ -1,7 +1,6 @@
 const createNotes=()=>{
     const notesContainer =document.getElementById('notes-container');
     notesContainer.style.display='block';
-
 }
 
 document.getElementById('submit-btn').addEventListener('click',function(){
@@ -22,4 +21,11 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     
     
 
+})
+
+
+// ============== set delete button =========//
+document.getElementById('delete-btn').addEventListener('click',function (){
+    const notesContainer =document.getElementById('notes-container');
+    notesContainer.style.display='none';
 })
